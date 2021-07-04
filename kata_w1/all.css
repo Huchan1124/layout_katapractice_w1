@@ -1,0 +1,64 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    /* outline: red solid 1px; */
+}
+.container {
+    width: 640px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.news {
+    width: 424px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.news img {
+    margin-bottom: 24px;
+    display: block;
+
+}
+
+.news .card {
+    width: 328px;
+   padding-right: 20px;
+   padding-left: 20px;
+    margin-bottom: 24px;
+}
+
+.card h2 {
+ font-size: 20px;
+    line-height: 1.2;
+}
+
+.card p {
+     font-size: 16px;
+    line-height: 1.5;
+
+}
+
+.ad {
+    width: 216px;
+    margin-bottom: 24px;
+}
+
+.ad img {
+    display: block;
+}
+
+.footer {
+    width: 640px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+
+}
+
+
+
+
