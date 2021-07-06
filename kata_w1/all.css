@@ -1,12 +1,10 @@
 *,*::before,*::after{
     box-sizing: border-box;
-    
 }
 
 .container {
     width: 640px;
     margin: 0 auto;
-
 }
 
 .main {
@@ -14,52 +12,45 @@
     flex-wrap: wrap;
 }
 
-.news{
-    width: 424px;
-
+.news {
+    width: calc(640px - 216px);
 }
 
 .newsBox {
-  display: flex;
-  flex-wrap: wrap;
-
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .newsContent {
     width: 328px;
-    padding-right: 20px;
     padding-left: 20px;
+    padding-right: 20px;
 }
 
-.newsContent  h2{
-  font-size: 20px;
-  line-height: 1.2;
+.newsContent h2{
+    font-size: 20px;
+    line-height: 1.2;
 }
 
-.newsContent  p{
-    font-size: 16px;
-    line-height: 1.5;
-  }
-
-
-
+.newsContent p{
+   font-size: 16px;
+   line-height: 1.5;
+}
 
 .ad {
     width: 216px;
 }
 
-
-.footer{
+.footer {
     width: 640px;
+}
+
+.footer p {
+    font-size: 16px;
+    line-height: 1.5;
     text-align: center;
 }
 
-.footer p{
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-.colMargin{
+.colMargin {
     margin-bottom: 24px;
 }
-
