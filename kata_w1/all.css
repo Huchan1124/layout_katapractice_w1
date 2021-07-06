@@ -11,12 +11,16 @@
     display: flex;
     flex-wrap: wrap;
 }
+/*.news 與 .newContent 你各有寫寬度，請思考移除其中一處試試看，這裡不需要寫那麼多寬度，這會有助於你寫RWD 時，結構可以更簡潔  */
 
-.news {
+/* .news {
     width: calc(640px - 216px);
-}
+} */
 
-.newsBox {
+
+
+/* newsBox的名稱可以再優化 ex.news-items  */
+.newsItems {
     display: flex;
     flex-wrap: wrap;
 }
